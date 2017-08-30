@@ -5,9 +5,13 @@ output:
 bibliography: bibliography.bib
 ---
 
-# rOpenSci fellowship application
+## rOpenSci fellowship application
 
-## Goal
+# Title: XXX
+
+**PIs:** Zachary Foster and Niklaus J. Grunwald, Dept. of Botany and Plant Pathology, Oregon State University, Corvallis, OR
+
+## Intorudction
 
 Large data sets containing community taxonomic information are becoming increasingly common, but the hierarchical nature of taxonomic information makes manipulating these data sets difficult and many R packages made for this have similar, yet unique, data structures and functions.
 These differences make it difficult to use multiple packages on the same data set and causes programmers to spend time creating and maintaining analogous solutions for the same low-level problems of data storage and manipulation, rather than focusing on novel functionality.
@@ -16,6 +20,10 @@ To address this problem, we are developing what we hope will become a standard i
 Being awarded this fellowship will allow us to devote the time needed to bring this project to maturity and help integrate it into the community of R programmers working with taxonomic data.
 A common infrastructure will allow programmers to make focused, novel contributions without creating redundant functionality.
 A cohesive community of packages will encourage users to conduct analyses entirely within R, increasing the effectiveness of reproducibility tools like `packrat` and R Markdown.
+
+## Goals
+
+## Preliminary results
 
 We are working on developing the rOpenSci package `taxa`, in collaboration with Scott Chamberlain, to provide a set of all-purpose classes and associated manipulation functions for taxonomic data, modeled after the `dplyr` data-manipulation philosophy.
 In addition to classes that represent `taxa`, classifications, and taxonomic trees, the `taxa` packages has a class that stores any number of application-specific tables, lists, or vectors mapped to a taxonomic tree so that manipulations to the taxonomy are also applied to the corresponding data and vice versa.
@@ -58,7 +66,7 @@ We have already submitted a workshop proposal for the 2018 11th International Co
 We hope to publish a paper on the `taxa` package in the F1000 open access journal.
 Finally, if this framework is adopted by the community as we hope, we would also want to publish an article describing the resources available for all-R analyses of taxonomic data using this framework.
 
-## Expected outcomes and timeline
+## Expected outcomes and timelines
 
 ### Months 1-3: Improvements to the `taxa` package
 
@@ -91,9 +99,6 @@ Finally, if this framework is adopted by the community as we hope, we would also
 * Publish a journal article on `taxa` in F1000Research, or another open-access journal
 * Publish a journal article on reproducible microbiome analysis in R in an open-access journal
 
-## Collaborators
-
-Niklaus Grünwald, Horticultural Crops Research Laboratory, USDA-ARS, Corvallis, Oregon, United States of America 
 
 ## High level budget
 
